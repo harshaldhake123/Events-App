@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:orientation="vertical"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@color/colorPrimaryLight">
+
+<TextView
+    android:id="@+id/tvProfileActivity"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="25dp"
+    android:layout_marginBottom="35dp"
+    android:fontFamily="cursive"
+    android:text="@string/your_profile"
+    android:textAlignment="center"
+    android:textColor="#000000"
+    android:textSize="30sp"
+    android:textStyle="bold" />
+
+<TextView
+    android:id="@+id/tvName"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="15dp"
+    android:layout_marginEnd="0dp"
+    android:text="@string/full_name"
+    android:textStyle="bold" />
+
+<EditText
+    android:id="@+id/etName"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    android:ems="10"
+    android:hint="@string/your_name_here"
+    android:inputType="textPersonName" />
+
+<TextView
+    android:id="@+id/tvPhone"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="15dp"
+    android:layout_marginEnd="0dp"
+    android:text="@string/phone_number"
+    android:textStyle="bold" />
+
+<EditText
+    android:id="@+id/etPhone"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    android:ems="10"
+    android:hint="@string/phone_number_here"
+    android:inputType="phone" />
+
+<TextView
+    android:id="@+id/tvEmail"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="15dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginEnd="0dp"
+    android:text="@string/email_address"
+    android:textStyle="bold" />
+
+<EditText
+    android:id="@+id/etEmail"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    android:ems="10"
+    android:hint="@string/your_emailid_here"
+    android:inputType="textEmailAddress" />
+
+<Button
+    android:id="@+id/btnUpdate"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="30dp"
+    android:layout_marginRight="30dp"
+    android:layout_marginTop="30dp"
+    android:background="@drawable/button_rounded"
+    android:text="@string/update_details" />
+
+<Button
+    android:id="@+id/btnSignOut"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="30dp"
+    android:layout_marginRight="30dp"
+    android:layout_marginTop="30dp"
+    android:background="@drawable/button_rounded"
+    android:text="Sign Out"/>
+
+</LinearLayout>
